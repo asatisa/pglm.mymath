@@ -10,6 +10,10 @@ func ToFloat32(in int) float32 {
 	return float32(in)
 }
 
+func GetVersion() string {
+	return version
+}
+
 func ToInt(str string) int {
 	num, err := strconv.Atoi(str)
 	if err != nil {
